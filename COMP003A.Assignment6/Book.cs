@@ -18,5 +18,16 @@ namespace COMP003A.Assignment6
 			Pages = pages;
 			Completed = completed;
 		}
+
+		// Display method
+		public void Display()
+		{
+			Console.WriteLine($"Title={Title}, Pages={Pages}, Completed={Completed}");
+		}
+		// Action method
+		public void ToggleCompleted()
+		{
+			Completed = !Completed;
+		}
 	}
 }
