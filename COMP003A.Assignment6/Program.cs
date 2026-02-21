@@ -19,6 +19,22 @@
 				Console.Write("Enter choice: ");
 
 				choice = int.Parse(Console.ReadLine());
+
+				switch (choice)
+				{
+					case 1:
+						Console.Write("Item 1: ");
+						book1.Display();
+
+						Console.Write("Item 2: ");
+						book2.Display();
+
+						Console.Write("Item 3: ");
+						book3.Display();
+
+						Console.WriteLine();
+						break;
+				}
 			}
 		}
 	}
