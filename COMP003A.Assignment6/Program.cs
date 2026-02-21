@@ -34,6 +34,25 @@
 
 						Console.WriteLine();
 						break;
+					case 2:
+						Console.Write("Select item (1-3); ");
+						int itemChoice = int.Parse(Console.ReadLine());
+
+						switch (itemChoice)
+						{
+							case 1:
+								book1.ToggleCompleted();
+								Console.WriteLine("Updated Item 1.");
+								break;
+							case 2:
+								book2.ToggleCompleted();
+								Console.WriteLine("Updated Item 2."):
+								break;
+							case 3:
+								book3.ToggleCompleted();
+								Console.WriteLine("Updated Item 3."):
+								break;
+						}
 				}
 			}
 		}
