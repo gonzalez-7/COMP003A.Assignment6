@@ -46,15 +46,20 @@
 								break;
 							case 2:
 								book2.ToggleCompleted();
-								Console.WriteLine("Updated Item 2."):
+								Console.WriteLine("Updated Item 2.");
 								break;
 							case 3:
 								book3.ToggleCompleted();
-								Console.WriteLine("Updated Item 3."):
+								Console.WriteLine("Updated Item 3.");
 								break;
 						}
+						Console.WriteLine();
+						break;
+					case 3:
+						Console.WriteLine("Program ended.");
+						break;
 				}
-			}
+			} while (choice != 3);
 		}
 	}
 }
