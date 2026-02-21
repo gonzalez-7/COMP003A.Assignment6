@@ -4,7 +4,11 @@
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
+			Book book1 = new Book("Atomic Habits", 320, false);
+			Book book2 = new Book("Clean Code", 464, true);
+			Book book3 = new Book("The Pragmatic Programmer", 352, false);
+
+			int choice = 0;
 		}
 	}
 }
